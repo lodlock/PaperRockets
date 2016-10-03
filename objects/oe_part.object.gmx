@@ -55,8 +55,9 @@ with( o_editor_controller )
     if(drag_object == -1)
     {
         is_drag = 1;
-        drag_object = other.id;      
-        other.visible = false;  
+        drag_object = other.id; 
+        is_in_part = false;     
+        other.visible = false;                
     }
 }
 </string>
